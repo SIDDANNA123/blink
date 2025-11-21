@@ -2,11 +2,12 @@
 int main()
 {
 	int n = 123;
-	while(n <= 0)
+	while(n > 0)
 	{
 		count++;
 		n /= 10;
 	}
-	printf("TOTAL COUNT IS : %d\n",count);
+
+	printf("Count is : %d\n",count);
 }
-		
+
